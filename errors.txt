@@ -1,0 +1,50 @@
+
+> game-ground@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(1,17): error TS6133: 'useEffect' is declared but its value is never read.
+src/components/dashboard/ActivityFeed.tsx(4,10): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/dashboard/ActivityFeed.tsx(5,24): error TS6133: 'Pause' is declared but its value is never read.
+src/components/dashboard/StationCard.tsx(3,10): error TS1484: 'Station' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/dashboard/StationCard.tsx(3,19): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/dashboard/StationCard.tsx(3,28): error TS1484: 'Customer' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/dashboard/StationCard.tsx(3,38): error TS2724: '"../../types"' has no exported member named 'MEMBERSHIP_TIERS'. Did you mean 'MembershipTier'?
+src/components/dashboard/StationCard.tsx(42,23): error TS2503: Cannot find namespace 'NodeJS'.
+src/components/dashboard/StationGrid.tsx(6,10): error TS1484: 'Station' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/dashboard/StationGrid.tsx(6,19): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/dashboard/StationGrid.tsx(6,28): error TS1484: 'Customer' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/dashboard/StatsBar.tsx(3,10): error TS6133: 'TrendingUp' is declared but its value is never read.
+src/components/dashboard/StatsBar.tsx(5,10): error TS2724: '"../../types"' has no exported member named 'MEMBERSHIP_TIERS'. Did you mean 'MembershipTier'?
+src/components/modals/EndSessionModal.tsx(4,10): error TS1484: 'Station' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/modals/EndSessionModal.tsx(4,19): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/modals/EndSessionModal.tsx(4,28): error TS1484: 'Customer' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/modals/EndSessionModal.tsx(4,38): error TS2724: '"../../types"' has no exported member named 'MEMBERSHIP_TIERS'. Did you mean 'MembershipTier'?
+src/components/modals/EndSessionModal.tsx(8,1): error TS6133: 'Select' is declared but its value is never read.
+src/components/modals/StartSessionModal.tsx(2,1): error TS6133: 'useForm' is declared but its value is never read.
+src/components/modals/StartSessionModal.tsx(2,25): error TS2307: Cannot find module 'react-form' or its corresponding type declarations.
+src/components/modals/StartSessionModal.tsx(3,1): error TS6133: 'z' is declared but its value is never read.
+src/components/modals/StartSessionModal.tsx(7,10): error TS1484: 'Station' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/modals/StartSessionModal.tsx(7,19): error TS1484: 'Customer' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/hooks/useAuth.ts(1,10): error TS6133: 'signInWithEmailAndPassword' is declared but its value is never read.
+src/hooks/useAuth.ts(1,38): error TS6133: 'signOut' is declared but its value is never read.
+src/lib/firestore.ts(1,74): error TS6133: 'setDoc' is declared but its value is never read.
+src/lib/firestore.ts(3,10): error TS1484: 'Customer' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/lib/firestore.ts(3,20): error TS1484: 'MembershipTier' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/lib/firestore.ts(3,20): error TS6133: 'MembershipTier' is declared but its value is never read.
+src/lib/firestore.ts(3,36): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/lib/firestore.ts(3,45): error TS1484: 'Station' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/lib/firestore.ts(4,10): error TS6133: 'calculateCost' is declared but its value is never read.
+src/lib/firestore.ts(105,11): error TS6133: 'durationMinutes' is declared but its value is never read.
+src/lib/seed.ts(3,10): error TS1484: 'Station' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/lib/seed.ts(3,19): error TS1484: 'Customer' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/Customers.tsx(4,25): error TS6133: 'TrendingUp' is declared but its value is never read.
+src/pages/Dashboard.tsx(12,11): error TS6133: 'user' is declared but its value is never read.
+src/pages/Reports.tsx(4,10): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/Reports.tsx(6,10): error TS6133: 'LineChart' is declared but its value is never read.
+src/pages/Reports.tsx(6,21): error TS6133: 'Line' is declared but its value is never read.
+src/store/appStore.ts(2,10): error TS1484: 'Station' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/appStore.ts(2,19): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/appStore.ts(2,28): error TS1484: 'Customer' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/authStore.ts(2,10): error TS1484: 'User' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/calculations.ts(2,10): error TS1484: 'MembershipTier' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/utils/calculations.ts(2,26): error TS1484: 'StationType' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
